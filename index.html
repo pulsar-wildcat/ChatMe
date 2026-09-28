@@ -103,6 +103,12 @@
       padding: 0 16px;
     }
 
+    .chat-item-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
     .chat-item {
       display: flex;
       align-items: center;
@@ -243,19 +249,22 @@
 
   <!-- Chat List Items -->
   <main class="chat-list">
-    <div class="chat-item">
-      <div class="avatar">✨</div>
-      <div class="chat-details">
-        <div class="chat-top">
-          <span class="chat-name">Gemini AI ⚙️</span>
-          <span class="chat-time">Today</span>
-        </div>
-        <div class="chat-bottom">
-          <span class="chat-message">Gemini to Grey crownini AI ewa...</span>
-          <span class="badge">6</span>
+    <!-- Clickable Gemini AI Chat -->
+    <a href="chat.html" class="chat-item-link">
+      <div class="chat-item">
+        <div class="avatar">✨</div>
+        <div class="chat-details">
+          <div class="chat-top">
+            <span class="chat-name">Gemini AI ⚙️</span>
+            <span class="chat-time">Today</span>
+          </div>
+          <div class="chat-bottom">
+            <span class="chat-message">Gemini to Grey crownini AI ewa...</span>
+            <span class="badge">6</span>
+          </div>
         </div>
       </div>
-    </div>
+    </a>
 
     <div class="chat-item">
       <div class="avatar">👤</div>
@@ -314,12 +323,12 @@
       <span class="nav-icon">👥</span>
       <span>Community</span>
     </a>
-    <a href="#" class="nav-item active">
+    <a href="index.html" class="nav-item active">
       <span class="nav-icon">💬</span>
       <span class="nav-badge">3</span>
       <span>Chats</span>
     </a>
-    <a href="#" class="nav-item">
+    <a href="settings.html" class="nav-item">
       <span class="nav-icon">👤</span>
       <span>You</span>
     </a>
